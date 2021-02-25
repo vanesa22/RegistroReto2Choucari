@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="e4325b042e798e411f5794b32a75c33e6b2d40424abbb373b3665bbaddd3e07c.html">Academy Choucair</a></span>
+                > <span class="truncate-60"><a
+                    href="14f84f353294d2c8ef289db280e8b35b9939907d81b64d7e58682a37a374c795.html">Automated registration in New experience quickly </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 24-02-2021 18:27</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Academy Choucair </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user, I want to be able to register on the New experience platform to see and buy fashion products.
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Automated registration in New experience quickly
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="79528bd56688ea1299b2aa878a1e0c4d72e0e3817e023777b600bb9c050a395e.png" title=" Given Rose wants to register on the platform quickly" width="1366"/>
+                <img src="79528bd56688ea1299b2aa878a1e0c4d72e0e3817e023777b600bb9c050a395e.png" title=" Rose open up" width="1366"/>
+                <img src="79528bd56688ea1299b2aa878a1e0c4d72e0e3817e023777b600bb9c050a395e.png" title=" Rose opens the U test page" width="1366"/>
+                <img src="3bfc32ad1a2e560853e280c9263be974750eed8ff176463cba8f48608ac49d44.png" title=" Rose open up (completed)" width="1366"/>
+                <img src="91665a22dbaea86ba4c969623903cc7ecca2e5f1b3a1c365e9e8812ff7283e2c.png" title=" Rose join today" width="1366"/>
+                <img src="91665a22dbaea86ba4c969623903cc7ecca2e5f1b3a1c365e9e8812ff7283e2c.png" title=" Rose clicks on Boton de iniciar sesion" width="1366"/>
+                <img src="91665a22dbaea86ba4c969623903cc7ecca2e5f1b3a1c365e9e8812ff7283e2c.png" title=" Rose join today (completed)" width="1366"/>
+                <img src="91665a22dbaea86ba4c969623903cc7ecca2e5f1b3a1c365e9e8812ff7283e2c.png" title=" Given Rose wants to register on the platform quickly (completed)" width="1366"/>
+                <img src="1d859f9f9e83bdce6034b049c10ab5892b59f93d0c298e944cf8e2372709b11c.png" title=" When she registers all the data required by the platform
+| strFirstName | strLastName | strEmail | strMonth | strDay | strYear | strPassword | strCity | strZip | strAddress | strState | strPhoneMobile |
+| Rose | Fernandez | vanesa089-17@hotmail.com | 2 | 11 | 1997 | Choucair1* | Popay&aacute;n | 96779 | Carrera 2 | 11 | 3125897458 |" width="1366"/>
+                <img src="1d859f9f9e83bdce6034b049c10ab5892b59f93d0c298e944cf8e2372709b11c.png" title=" Rose sing up" width="1366"/>
+                <img src="1d859f9f9e83bdce6034b049c10ab5892b59f93d0c298e944cf8e2372709b11c.png" title=" Rose enters 'vanesa089-17@hotmail.com' into Donde escribimos el correo " width="1366"/>
+                <img src="cebe3808676d522f5e19bec67b5c4755e07680f365ff4929eb575c5aba04d56a.png" title=" Rose clicks on Da en crear cuenta " width="1366"/>
+                <img src="0fd71aa266715660c7bf6abd7e0554959764a7332a2edbd853e380a5e91f6914.png" title=" Rose enters 'Rose' into Donde escribimos el nombre" width="1366"/>
+                <img src="053e2b1936ccf5824554abcea2028ce8558945782ae951a2b93fe220fb164413.png" title=" Rose enters 'Fernandez' into Donde escribimos el apellido" width="1366"/>
+                <img src="9f1053d19e0d783a8b13ccf1b152453aa72ea48a3a0bbaf6d0dae00565b369d4.png" title=" Rose enters 'Choucair1*' into Donde escribimos la contrase&Atilde;&plusmn;a" width="1366"/>
+                <img src="71c46108fc0fb674bd782e37b39aa99f7c5196795d8466092007851c1cfca22c.png" title=" Rose selects 11 in Donde se escoge el dia de cumplea&Atilde;&plusmn;os" width="1366"/>
+                <img src="84772ee55e9ad7d06e848c5e0d427db8f6b1f75063485b51ce60917c1ef7b8a7.png" title=" Rose selects 2 in Donde se escoge el mes de cumplea&Atilde;&plusmn;os" width="1366"/>
+                <img src="5e8379c16b46971689a2c1b816308c6b009eaeb0f655dab7e5e3bb2ffdc11199.png" title=" Rose selects 1997 in Donde se escoge el a&Atilde;&plusmn;o de cumplea&Atilde;&plusmn;os" width="1366"/>
+                <img src="36f4a736d869a1075cc6e621f4722906a5893ec128ad506fb9a121295859490a.png" title=" Rose enters 'Carrera 2' into Donde escribimos la direccion " width="1366"/>
+                <img src="77fe86c69724942694a5c621e2133c1bc967e67918b2a3af3f8b76802f860c09.png" title=" Rose enters 'Popay&aacute;n' into Donde escribimos la ciudad" width="1366"/>
+                <img src="f839b4946df07c75e108d0c4b38a13d52b90cd052d122c58253d279e16de9cf9.png" title=" Rose selects 11 in Donde se escoge el estado " width="1366"/>
+                <img src="f56f68da7bd5511e8af6f51ea59dec31fbc8bb42cea03d74b5c3e329938de430.png" title=" Rose enters '96779' into Donde escribimos la ciudad" width="1366"/>
+                <img src="49ac6c38e4ffb41fa0ef0908f27cfc82c52832a6eeacdf40577e288909e115b2.png" title=" Rose enters '3125897458' into Donde escribimos el numero de telefono" width="1366"/>
+                <img src="cb0a41f422e0d2396edf17d3c3e067b6606dca4de80b3170f6a39c782e35ed37.png" title=" Rose clicks on Da click en el boton registrar" width="1366"/>
+                <img src="cb0a41f422e0d2396edf17d3c3e067b6606dca4de80b3170f6a39c782e35ed37.png" title=" Rose sing up (completed)" width="1366"/>
+                <img src="cb0a41f422e0d2396edf17d3c3e067b6606dca4de80b3170f6a39c782e35ed37.png" title=" When she registers all the data required by the platform
+| strFirstName | strLastName | strEmail | strMonth | strDay | strYear | strPassword | strCity | strZip | strAddress | strState | strPhoneMobile |
+| Rose | Fernandez | vanesa089-17@hotmail.com | 2 | 11 | 1997 | Choucair1* | Popay&aacute;n | 96779 | Carrera 2 | 11 | 3125897458 | (completed)" width="1366"/>
+                <img src="cb0a41f422e0d2396edf17d3c3e067b6606dca4de80b3170f6a39c782e35ed37.png" title=" Then she will be registered: <span class='success-color'>SUCCESS</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
